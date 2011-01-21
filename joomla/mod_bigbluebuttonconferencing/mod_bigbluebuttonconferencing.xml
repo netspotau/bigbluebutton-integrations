@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.1">
+	<name>BigBlueButton Conferencing</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>2010-08-19</creationDate>
+	<author>Blindside Networks</author>
+	<authorUrl>http://blindsidenetworks.com/</authorUrl>
+	<copyright> Copyright 2010 Blindside Networks</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0</version>
+	<description>Integrates BigBlueButton functionality with Joomla.</description>
+
+    <files>
+
+		<filename>mod_bigbluebuttonconferencing.xml</filename>
+        <filename module="mod_bigbluebuttonconferencing">mod_bigbluebuttonconferencing.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+
+		
+		<filename>images/polling.gif</filename>
+        <filename>images/index.html</filename>
+		
+		<filename>js/heartbeat.js</filename>
+		<filename>js/jquery.xml2json.js</filename>
+		<filename>js/md5.js</filename>
+        <filename>js/index.html</filename>
+		
+		<filename>php/check.php</filename>
+		<filename>php/bbb_api.php</filename>
+        <filename>php/index.html</filename>
+		
+		<filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		
+    </files>
+    <params>
+    </params>
+</install>
