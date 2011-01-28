@@ -112,12 +112,6 @@ if (!class_exists("bigbluebuttonPlugin")) {
 			update_option( "mt_bbb_url", "http://test-install.blindsidenetworks.com/bigbluebutton/" );
             update_option( "mt_salt", "8cd8ef52e8e101574e400365b55e11a6" );
 		
-				
-			//$salt_val = get_option($salt_name);
-			//$url_val = get_option($url_name);
-			//if( !$salt_val || !$url_val || $salt_val == "" || $url_val == "" ){
-				
-			//}
 		}
 			
 			//Sets up the bigbluebutton table to store meetings in the wordpress database
