@@ -605,7 +605,6 @@ function bbb_list_meetings() {
 				<input type="hidden" name="<?php echo $meetingID_name; ?>" value="<?php echo $meeting->meetingID; ?>">
 				<tr>
 					<td><?php echo $meeting->meetingID; ?></td>
-					<td><?php echo $meeting->meetingVersion; ?></td>
 					<td><?php echo $meeting->attendeePW; ?></td>
 					<td><?php echo $meeting->moderatorPW; ?></td>
 					<td>
@@ -635,7 +634,6 @@ function bbb_list_meetings() {
 				<tr>
 				
 					<td><?php echo $meeting->meetingID; ?></td>
-					<td><?php echo $meeting->meetingVersion; ?></td>
 					<td><?php echo $meeting->attendeePW; ?></td>
 					<td><?php echo $meeting->moderatorPW; ?></td>
 					<td>
@@ -687,7 +685,6 @@ function bbb_print_table_header(){
 		<th>
 			<tr>
 				<td class="hed" colspan="1">Meeting Room Name</td>
-				<td class="hed" colspan="1">Meeting Version</td>
 				<td class="hed" colspan="1">Attendee Password</td>
 				<td class="hed" colspan="1">Moderator Password</td>
 				<td class="hed" colspan="1">Wait for Moderator</td>
