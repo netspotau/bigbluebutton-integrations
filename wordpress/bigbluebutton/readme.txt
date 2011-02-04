@@ -4,7 +4,7 @@ Donate link: http://blindsidenetworks.com/integration
 Tags: blindsidenetworks, bigbluebutton, opensource, web, conferencing,
 Requires at least: 3.0.1
 Tested up to: 3.0.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 This plugin integrates BigBlueButton functionality into Wordpress. 
 
@@ -34,7 +34,7 @@ The easiest way to install is to watch this [installation video](http://www.yout
 
 **Why is it giving an error about creating a meeting room?**
 
-Make sure you are using BigBlueButton 0.7.
+Make sure you are using BigBlueButton 0.7 or higher.
 
 **What is this error: "Unable to display the meetings. Please check the url of the bigbluebutton server AND check to see if the bigbluebutton server is running."?**
 
@@ -51,6 +51,12 @@ You should enable the curl extension in php.ini.
 
 == Changelog ==
 
+= 1.0.2 =
+* Wait for moderator is now meeting specific
+* Added confirmation messages when ending or deleting a meeting
+* Performance improvements
+
+
 = 1.0.1 =
 * Updated to use version 1.2 of the php api.
 * Uses time stamps for the meeting version, which results in better performance.
@@ -60,6 +66,9 @@ You should enable the curl extension in php.ini.
 * Added the initial files.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+This version provides better performance, and the wait for moderator option is now meeting specific.
 
 = 1.0.1 =
 This version provides better performance, and includes some bug fixes.
