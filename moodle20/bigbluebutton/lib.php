@@ -231,23 +231,6 @@ function bigbluebutton_scale_used($bigbluebuttonid, $scaleid) {
 }
 
 /**
- * Checks if scale is being used by any instance of bigbluebutton.
- * This function was added in 1.9
- *
- * This is used to find out if scale used anywhere
- * @param $scaleid int
- * @return boolean True if the scale is used by any bigbluebutton
- */
-function bigbluebutton_scale_used_anywhere($scaleid) {
-    global $DB;
-
-    if ($scaleid and $DB->record_exists('bigbluebutton', 'grade', -$scaleid)) {
-        return true;
-    } else {
-        return false;
-    }
-}
-/**
  * @uses FEATURE_IDNUMBER
  * @uses FEATURE_GROUPS
  * @uses FEATURE_GROUPINGS
